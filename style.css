@@ -33,7 +33,7 @@
   /* header */
 
     header {
-    background: var(--background);
+    background: linear-gradient(to bottom, var(--tex-greenblu), var(--background));
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -44,3 +44,45 @@
     top: 0;
     z-index: 2;
   }
+
+  .logo {
+    height: 40%;
+  }
+  
+  .navbar,
+  .navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar {
+    gap: 150px;
+  }
+  
+  .navbar-list {
+    gap: 30px;
+  }
+  
+  .navbar-list a {
+    color: var(--text-gray);
+    font-size: 14px;
+  }
+  
+  .navbar-list li:first-child > a {
+    color: var(--text-white);
+    font-weight: 600;
+  }
+
+  /*Ocultar/mostrar carrito*/
+
+#cart-toggle,
+#menu-toggle,
+.menu-label {
+  display: none;
+}
+
+#cart-toggle:checked + .cart {
+  transform: translate(0%);
+  transition: all 0.5s cubic-bezier(0.92, 0.01, 0.35, 0.99);
+}
