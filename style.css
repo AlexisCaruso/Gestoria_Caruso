@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & family= Montserrat+Suplentes: ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400 & family= Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400; 8..144,500;8..144,656;8..144,700;8..144,800;8..144,900;8..144,1000 & display=swap');
+
+:root {
+    /* bg colors */
+    --background: #02050e;
+    --primary: #1e50ff;
+    --secondary: #272d37;
+    --btn-bg: #050d26;
+    --bg-azul-10: #e9eeff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+  
+    /* Text colors */
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+    --tex-greenblu: #13c6cf;
+  
+    /* Decoration */
+    --green: #27ef9f;
+    --bluesky: #10bfd7;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+  }
+
+  /* header */
+
+    header {
+    background: var(--background);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0px 30px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  }
