@@ -36,8 +36,9 @@
     background: linear-gradient(to bottom, var(--tex-greenblu), var(--background));
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
+    gap: 100pxgir;
     height: 100px;
     padding: 0px 30px;
     position: fixed;
@@ -46,7 +47,7 @@
   }
 
   .logo {
-    height: 40%;
+    height: 60%;
   }
   
   .navbar,
