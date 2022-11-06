@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & family= Montserrat+Suplentes: ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400 & family= Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400; 8..144,500;8..144,656;8..144,700;8..144,800;8..144,900;8..144,1000 & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Inter:wght@100;200;300;400;500;600;700;800;900 & family= Montserrat+Suplentes: ital,peso@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400 & family= Poppins:ital,peso@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200; 1,300;1,400;1,500;1,600;1,700;1,800;1,900 & familia= Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8 ..144,656;8..144,700;8..144,800;8..144,900;8..144,1000 & display=swap');
 
 :root {
     /* bg colors */
@@ -36,9 +37,9 @@
     background: linear-gradient(to bottom, rgb(211, 245, 210), var(--background));
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    gap: 100px;
+    gap: 50px;
     height: 75px;
     padding: 0px 20px;
     position: fixed;
@@ -58,7 +59,7 @@
   }
   
   .navbar {
-    gap: 180px;
+    gap: 100px;
   }
   
   .navbar-list {
@@ -66,14 +67,14 @@
   }
   
   .navbar-list a {
-    color: var(--text-white);
+    color: var(--nav-bg);
     font-size: 17px;
   }
   
   .navbar-list li:first-child > a {
-    color: var(--text-white);
+    color: var(--nav-bg);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 20px;
   }
 
   /*Ocultar/mostrar carrito*/
@@ -88,3 +89,69 @@
   transform: translate(0%);
   transition: all 0.5s cubic-bezier(0.92, 0.01, 0.35, 0.99);
 }
+
+main {
+  margin-top: 65px;
+  padding: 20px;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(211, 245, 210), var(--background));
+  color: var(--text-white);
+}
+
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 1400px;
+  width: 100%;
+  height: 600px;
+}
+
+.container_about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  height: 600px;
+}
+
+.container_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height:50%;
+}
+
+.container_img img {
+  width: 90%;
+  height: 90%;
+}
+
+.container_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container_info h1 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container_info p {
+
+}
+
+.container_info a {
+
+}
+
+
+
