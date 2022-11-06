@@ -47,7 +47,7 @@
   }
 
   .logo {
-    height: 60%;
+    height: 80%;
   }
   
   .navbar,
@@ -58,21 +58,22 @@
   }
   
   .navbar {
-    gap: 200px;
+    gap: 180px;
   }
   
   .navbar-list {
-    gap: 80px;
+    gap: 50px;
   }
   
   .navbar-list a {
-    color: var(--nav-bg);
+    color: var(--text-white);
     font-size: 17px;
   }
   
   .navbar-list li:first-child > a {
     color: var(--text-white);
     font-weight: 700;
+    font-size: 22px;
   }
 
   /*Ocultar/mostrar carrito*/
