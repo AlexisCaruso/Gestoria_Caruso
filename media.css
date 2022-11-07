@@ -52,19 +52,29 @@
     }
 
     #about {
-      height: 70vh;
+      width: 100%;
     }
 
     .container_about {
-      height: 250px;
-      gap: 10px;
-      padding: auto;
       flex-wrap: wrap;
+      flex-direction: column;
     }
 
     .container_img img {
-      width: 70%;
-      height: 50%;
+      width: 100%;
+      height: 100%;
+    }
+
+    .container_info h1 {
+      text-align: center;
+    }
+
+    .container_info p {
+      display: none;
+    }
+
+    .container_info a {
+      font-size: 10px;
     }
 
 }
