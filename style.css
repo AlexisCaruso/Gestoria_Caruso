@@ -4,6 +4,7 @@
 :root {
     /* bg colors */
     --background: #02050e;
+    --background2: rgb(10, 6, 69);
     --primary: #1e50ff;
     --secondary: #272d37;
     --btn-bg: #050d26;
@@ -34,7 +35,7 @@
   /* header */
 
     header {
-    background: linear-gradient(to bottom, rgb(211, 245, 210), var(--background));
+    background: linear-gradient(to bottom, rgb(211, 245, 210), var(--background2));
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -94,9 +95,11 @@ main {
   margin-top: 65px;
   padding: 20px;
   width: 100%;
-  background: linear-gradient(to bottom, rgb(211, 245, 210), var(--background));
+  background: var(--background2);
   color: var(--text-white);
+  font-family: "Poppins", sans-serif;
 }
+
 
 #about {
   display: flex;
@@ -116,19 +119,21 @@ main {
   width: 100%;
   max-width: 1200px;
   height: 600px;
+  flex-direction: column;
 }
 
 .container_img{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
-  height:50%;
+  width: 70%;
+  height:60%;
 }
 
 .container_img img {
   width: 90%;
   height: 90%;
+  padding: 15px;
 }
 
 .container_info {
@@ -140,13 +145,22 @@ main {
 }
 
 .container_info h1 {
-  font-size: 40px;
-  font-weight: 900;
-  font-family: 'Poppins', sans-serif;
+  font-size: 65px;
+  font-weight: 600;
+  background: #A1FFCE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  color: transparent;
+  font-family: "Poppins", sans-serif;
 }
 
-.container_info p {
 
+.container_info p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .container_info a {
