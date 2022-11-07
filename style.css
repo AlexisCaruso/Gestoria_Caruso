@@ -188,6 +188,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
   width: 100%;
   max-width: 1400px;
   height: 700px;
@@ -208,6 +209,7 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   gap: 10px;
   padding: 20px;
   font-size: 30px;
@@ -223,25 +225,43 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  gap: 20px;
+  width: 80%;
+  max-width: 950px;
   height: 70px;
 }
 
 .servicios_img {
-  width: 50px;
-  height: 50px;
+  width: 200px;
+  height: 150px;
 }
 
 .servicios_img img {
-
+  width: 100px;
+  height: 100%;
 }
 
 .servicios_info {
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .servicios_info h3 {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  background: #3a4646;
+  background: -webkit-linear-gradient(to right, #f8ca86, #3a4646);
+  background: linear-gradient(to right, #f8ca86, #3a4646);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .servicios_info p {
