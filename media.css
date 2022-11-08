@@ -1,7 +1,7 @@
 @media (max-width: 992px) {
 
     header {
-      justify-content: center;
+      justify-content: space-evenly;
     }
 
     .navbar {
@@ -43,8 +43,8 @@
     }
   
     .menu-label img {
-      height: 70px;
-      width: 60px;
+      height: 45px;
+      width: 45px;
     }
 
     #menu-toggle:checked + .navbar-list {
@@ -83,10 +83,22 @@
 
     .servicios_containerall {
       height: 100%;
+      width: 100%;
     }
 
+    .servicios_img {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }  
     .servicios_containerall img {
-      width: 80px;
+      width: 50%;
+    }
+
+    .contacto_maps iframe {
+      padding: 20px;
+      height: auto;
+      max-width: 100%;
     }
 
 }

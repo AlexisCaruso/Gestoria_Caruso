@@ -334,9 +334,7 @@ main {
 }
 
 .contacto_maps iframe {
-  padding: 20px;
-  height: auto;
-  max-width: 100%;
+  margin-top: 25px;
 }
 
 .contacto_redes {
@@ -356,8 +354,6 @@ main {
   align-items: s;
   gap: 10px;
 }
-
-
 
 .contacto_redes_info img {
   height: 40px;
