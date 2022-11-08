@@ -77,4 +77,16 @@
       font-size: 10px;
     }
 
+    .servicios_container{
+      flex-direction: column;
+    }
+
+    .servicios_containerall {
+      height: 100%;
+    }
+
+    .servicios_containerall img {
+      width: 80px;
+    }
+
 }
