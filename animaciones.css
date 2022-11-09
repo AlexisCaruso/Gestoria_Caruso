@@ -3,21 +3,6 @@ html {
     scroll-padding-top: 65px;
 }
 
-.overlay {
-    position: absolute;
-    top: 65px;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    z-index: 1;
-   
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    display: none;
-}
-
 #menu-toggle:checked ~ .overlay {
     display: block;
 }
@@ -29,7 +14,7 @@ html {
 
 .navbar-list li a::after {
     content: "";
-    height: 2px;
+    height: 1.5px;
     width: 100%;
     background: var(--text-white);
     position: absolute;
@@ -37,7 +22,8 @@ html {
     left: 0;
     transform: scaleX(0);
     transform-origin: bottom right;
-    transition: transform 0.15s ease;
+    transition: transform 0.2s ease;
+   
 }
 
 .navbar-list li a:hover::after {
