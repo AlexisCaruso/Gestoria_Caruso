@@ -30,3 +30,13 @@ html {
     transform-origin: bottom left;
     transform: scaleX(1);
 }
+
+.container_info a:hover {
+    background-color: #f8ca86;
+    color: black;   
+}
+
+.servicios_info a:hover {
+    background-color: #f8ca86;
+    color: black;
+}
