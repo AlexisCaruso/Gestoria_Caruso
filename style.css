@@ -51,6 +51,7 @@
 
   .logo {
     height: 80%;
+    border-radius: 45px;
   }
   
   .navbar,
@@ -404,6 +405,7 @@ footer {
 .footer_container img {
   height: 100%;
   padding: 10px 20px;
+  border-radius: 45px;
 }
 
 .footer_container p {
