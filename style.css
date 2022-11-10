@@ -396,8 +396,8 @@ footer {
   height: 100%;
   width: 50%;
   gap: 20px;
-  border: 1px #f8ca86 solid;
-  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
   
 }
 
