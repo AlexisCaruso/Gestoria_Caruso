@@ -187,6 +187,49 @@ main {
   font-weight: 600;
 }
 
+/*beneficios*/
+
+#benecios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1600px;
+}
+
+.beneficios_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+.beneficios_info {
+  border: solid red 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 60%;
+}
+
+.beneficios_info img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 30%;
+}
+
+.beneficios_info p {
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}
+
+
 
 /*servicios*/
 
@@ -288,8 +331,6 @@ main {
   font-weight: 600;
 }
 
-/*beneficios*/
-
 
 /*contacto*/
 
@@ -378,6 +419,9 @@ main {
   font-size: 14px;
   color: var(--text-white);
 }
+
+
+/*footer*/
 
 footer {
   display: flex;

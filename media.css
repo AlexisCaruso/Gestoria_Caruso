@@ -77,6 +77,10 @@
       font-size: 10px;
     }
 
+    .beneficios_container {
+      flex-wrap: wrap;
+    }
+
     .servicios_container{
       flex-direction: column;
     }
