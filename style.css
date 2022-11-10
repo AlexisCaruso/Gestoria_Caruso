@@ -282,6 +282,7 @@ main {
   padding: 10px 15px;
   color: var(--text-white);
   background-color: #000000;
+  transition: var(--background) .5s;
   font-size: 11px;
   font-weight: 600;
 }
@@ -300,6 +301,7 @@ main {
   width: 100%;
   gap: 30px;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 #contacto h2 {
@@ -377,23 +379,41 @@ main {
 }
 
 footer {
-  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   max-width: 1600px;
-  min-width: 350px
-  display: flex;
-}
-
-footer img {
-  
+  min-width: 350px;
+  height: 75px;
+  background-color: var(--background);
 }
 
 .footer_container {
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  gap: 20px;
+  border: 1px #f8ca86 solid;
+  border-radius: 5px;
+  
+}
 
+.footer_container img {
+  height: 100%;
+  padding: 10px 20px;
 }
 
 .footer_container p {
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  color: var(--bg-white);
+  font-size: 10px;
+  padding: 5px;
 }
 
 
