@@ -213,8 +213,11 @@ main {
   justify-content: center;
   flex-direction: column;
   border: #000000 solid 2px;
-  border-radius: 10px;
+  border-radius: 100px;
   background: #3a4646;
+  box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
+  -webkit-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
+  -moz-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
   opacity: 0.75;
   padding: 15px;
   gap: 15px;
@@ -225,9 +228,8 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
-  height: 30%;
-  z-index: 5;
+  width: 50%;
+  height: 50%;
 }
 
 .beneficios_info p {
@@ -381,7 +383,10 @@ main {
   max-width: 950px;
   min-width: 350px;
   background-color: #3a4646;
-  border-radius: 50px;
+  box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
+  -webkit-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
+  -moz-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
+  border-radius: 100px;
 }
 
 .contacto_maps iframe {
