@@ -35,7 +35,7 @@
   /* header */
 
     header {
-    background: linear-gradient(to bottom, #f8ca86, var(--background));
+    background: linear-gradient(to bottom,  var(--background), #f8ca86);
     width: 100%;
     max-width: 1600px;
     display: flex;
@@ -206,7 +206,6 @@ main {
 }
 
 .beneficios_info {
-  border: solid red 5px;
   display: flex;
   align-items: center;
   justify-content: center;
