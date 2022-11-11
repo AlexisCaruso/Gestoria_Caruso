@@ -35,7 +35,7 @@
   /* header */
 
     header {
-    background: linear-gradient(to bottom,  var(--background), #f8ca86);
+    background: linear-gradient(to bottom, #f8ca86, var(--background));
     width: 100%;
     max-width: 1600px;
     display: flex;
@@ -198,9 +198,11 @@ main {
 }
 
 .beneficios_container {
+  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 45px;
   padding: 30px;
   gap: 20px;
 }
@@ -210,7 +212,12 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
+  border: #000000 solid 2px;
+  border-radius: 10px;
+  background: #3a4646;
+  opacity: 0.75;
+  padding: 15px;
+  gap: 15px;
   width: 60%;
 }
 
@@ -220,12 +227,14 @@ main {
   align-items: center;
   width: 30%;
   height: 30%;
+  z-index: 5;
 }
 
 .beneficios_info p {
-  text-align: center;
+  text-align: justify;
   font-size: 16px;
   padding: 20px;
+  font-weight: 500;
 }
 
 
