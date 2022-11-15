@@ -2,3 +2,8 @@
     background-color: #f8ca86;
     color: black;
 }
+
+#formulario input:hover::placeholder {
+    background-color: #f8ca86;
+    border-radius: 5px;
+  }

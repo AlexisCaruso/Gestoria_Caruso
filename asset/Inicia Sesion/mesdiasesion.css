@@ -1,6 +1,7 @@
 @media (max-width: 992px) {
   body {
-    height: 80vh;
+    height: auto;
+    margin-top: none;
   }
 
     .footer_container {
