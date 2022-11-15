@@ -1,0 +1,25 @@
+@media (max-width: 992px) {
+
+    body {
+     height: 100vh;
+    }
+
+    #registerper {
+    margin-top: 50px;
+    flex-direction: column;
+    }
+
+    .registerper_img {
+    margin-top: 10px;
+    padding: 20px;
+    }
+
+
+
+    .footer_container {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    }
+
+}
