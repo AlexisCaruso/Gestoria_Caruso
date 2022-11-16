@@ -1,7 +1,7 @@
 @media (max-width: 992px) {
 
     header {
-      justify-content: space-evenly;
+      justify-content: center;
     }
 
     .navbar {
@@ -10,15 +10,14 @@
 
     .navbar-list {
       position: absolute;
-      top: 65px;
-      width: 90%;
+      top: 50px;
       flex-direction: column;
-      background: var(--nav-bg);
+      background: linear-gradient(to bottom, var(--background), #f8ca86);
       border: 2px solid var(--electric);
       border-top: 0px;
       border-radius: 15px;
       align-items: flex-start;
-      padding: 35px 20px;
+      padding: 15px 20px;
       gap: 10px;
       z-index: 2;
       display: none;
@@ -26,13 +25,14 @@
   
     .navbar-list a {
       font-size: 14px;
-      color: white;
+      color: black;
+      font-weight: 400;
     }
 
     .navbar-list li:first-child > a {
       color: white;
       font-weight: 700;
-      font-size: 17px;
+      font-size: 14px;
     }
   
     .menu-label {
@@ -43,8 +43,8 @@
     }
   
     .menu-label img {
-      height: 45px;
-      width: 45px;
+      height: 35px;
+      width: 35px;
     }
 
     #menu-toggle:checked + .navbar-list {

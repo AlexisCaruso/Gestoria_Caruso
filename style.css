@@ -148,9 +148,9 @@ main {
   height: 70%;
   padding: 10px;
   margin: 15px 0;
-  -webkit-transition: all 1.5s ease-in;
-  -moz-transition: all 1.5s ease-in;
-  -o-transition: all 1.5s ease-in;
+  -webkit-transition: all 1s ease-in;
+  -moz-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
 }
 
 .container_info {
@@ -384,13 +384,12 @@ main {
   padding: 10px;
   gap: 15px;
   width: 100%;
-  max-width: 950px;
+  max-width: 750px;
   min-width: 350px;
-  background-color: #3a4646;
-  box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
-  -webkit-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
-  -moz-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
-  border-radius: 100px;
+  box-shadow: 0px 0px 0px 4px rgba(248,202,134,0.46);
+  -webkit-box-shadow: 0px 0px 0px 4px rgba(248,202,134,0.46);
+  -moz-box-shadow: 0px 0px 0px 4px rgba(248,202,134,0.46);
+  border-radius: 70px;
 }
 
 .contacto_maps iframe {
