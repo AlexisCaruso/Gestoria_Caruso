@@ -41,6 +41,7 @@
    flex-direction: column;
    background-color: var(--background);
    margin-top: 20px;
+   min-height: 100vh;
  }
 
  #sesion {
@@ -93,7 +94,6 @@
    display: flex;
    align-items: center;
    justify-content: center;
-   margin-top: 10px;
    gap: 12px;
    flex-direction: column;
 }
@@ -144,6 +144,7 @@ footer {
    min-width: 350px;
    height: 75px;
    background-color: var(--background);
+   margin: auto;
  }
  
  .footer_container {

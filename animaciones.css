@@ -31,6 +31,8 @@ html {
     transform: scaleX(1);
 }
 
+
+
 .container_info a:hover {
     background-color: #f8ca86;
     color: black;   

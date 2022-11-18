@@ -57,7 +57,6 @@
    width: 90%;
    padding: 20px;
    text-align: center;
-   height: auto;
 }
 
  .registerpr_img {
@@ -144,6 +143,7 @@ footer {
    min-width: 350px;
    height: 75px;
    background-color: var(--background);
+   margin: auto;
  }
  
  .footer_container {

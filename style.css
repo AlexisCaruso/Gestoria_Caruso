@@ -180,6 +180,9 @@ main {
   text-align: center;
   font-size: 16px;
   padding: 20px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  
 }
 
 .container_info a {
@@ -217,8 +220,11 @@ main {
   justify-content: center;
   flex-direction: column;
   border: #000000 solid 2px;
-  border-radius: 100px;
-  background: #3a4646;
+  border-radius: 70px;
+  /* background: #3a4646; */
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
   -webkit-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
   -moz-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
@@ -295,10 +301,15 @@ main {
   width: 25%;
   height: 300px;
   border-radius: 50px;
-  background-color: #1e1d1d;
-  box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
-  -webkit-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
-  -moz-box-shadow: 8px 9px 19px -4px rgba(248,202,134,0.46);
+  /* background-color: #1e1d1d; */
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  box-shadow: 8px 15px 19px -4px rgba(248,202,134,0.46);
+  -webkit-box-shadow: 8px 15px 19px -4px rgba(248,202,134,0.46);
+  -moz-box-shadow: 8px 9px 15px -4px rgba(248,202,134,0.46);
 }
 
 .servicios_containerall img {
