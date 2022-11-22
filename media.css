@@ -1,7 +1,7 @@
 @media (max-width: 992px) {
 
     header {
-      justify-content: center;
+      justify-content: space-evenly;
     }
 
     .navbar {
@@ -49,6 +49,7 @@
 
     #menu-toggle:checked + .navbar-list {
         display: flex;
+        max-width: 350px;
     }
 
     #about {
