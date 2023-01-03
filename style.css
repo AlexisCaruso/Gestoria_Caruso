@@ -47,6 +47,7 @@
     position: fixed;
     top: 0;
     z-index: 2;
+    background-color: black;
   }
 
   .logo {
@@ -94,7 +95,7 @@
 }
 body {
   width: 100%;
-  max-width: 1600px;
+  /* max-width: 1600px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,9 +149,6 @@ main {
   height: 70%;
   padding: 10px;
   margin: 15px 0;
-  -webkit-transition: all 1s ease-in;
-  -moz-transition: all 1s ease-in;
-  -o-transition: all 1s ease-in;
 }
 
 .container_info {

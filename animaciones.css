@@ -38,12 +38,6 @@ html {
     color: black;   
 }
 
-.container_img img:hover {
-    height: 30%;
-    width: 40%;
-    margin-left: -50px;
-}
-
 .servicios_info a:hover {
     background-color: #f8ca86;
     color: black;

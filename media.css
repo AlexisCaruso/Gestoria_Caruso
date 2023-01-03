@@ -1,7 +1,12 @@
 @media (max-width: 992px) {
 
+    main {
+      width: 100%;
+    }
+
     header {
       justify-content: space-evenly;
+      width: 100%;
     }
 
     .navbar {
@@ -49,7 +54,7 @@
 
     #menu-toggle:checked + .navbar-list {
         display: flex;
-        max-width: 350px;
+        max-width: 320px;
     }
 
     #about {
