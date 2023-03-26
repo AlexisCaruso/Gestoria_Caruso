@@ -1,11 +1,27 @@
 @media (max-width: 992px) {
-  
 
-    .footer_container {
-        width: 100%;
-        text-align: center;
-        padding: 10px;
-        flex-direction: row;
-      }   
+  body {
+    min-width: 350px;
+  }
+  
+  .iniciodesesion_img {
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+ }
+
+ footer {
+  flex-direction: column;
+ }
+  
+  .footer_container {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  }   
+
+  .footer_container p {
+    font-size: 5px;
+  }
 
 }
