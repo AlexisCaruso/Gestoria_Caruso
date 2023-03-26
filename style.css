@@ -194,12 +194,13 @@ main {
 
 /*beneficios*/
 
-#benecios {
+#beneficios {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1600px;
+  border: red solid 2px;
+  /*max-width: 1600px;*/
 }
 
 .beneficios_container {
@@ -208,8 +209,8 @@ main {
   justify-content: center;
   align-items: center;
   border-radius: 45px;
-  padding: 30px;
-  gap: 20px;
+  padding: 25px;
+  gap: 30px;
 }
 
 .beneficios_info {
@@ -230,6 +231,7 @@ main {
   padding: 15px;
   gap: 15px;
   width: 60%;
+  height: 350px;
 }
 
 .beneficios_info img {
