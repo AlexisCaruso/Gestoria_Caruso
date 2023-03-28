@@ -37,13 +37,14 @@
     header {
     background: linear-gradient(to bottom, #f8ca86, var(--background));
     width: 100%;
+    min-width: 300px;
     max-width: 1600px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
     height: 50px;
-    padding: 0px 20px;
+    padding: 0px 10px;
     position: fixed;
     top: 0;
     z-index: 2;
@@ -95,7 +96,7 @@
 }
 body {
   width: 100%;
-  min-width: 350px;
+  min-width: 300px;
   /* max-width: 1600px; */
   display: flex;
   align-items: center;
@@ -108,10 +109,9 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 50px;
+  margin-top: 0px;
   padding: 35px;
   width: 100%;
-  max-width: 1600px;
   background: var(--background);
   color: var(--text-white);
   font-family: "Poppins", sans-serif;
@@ -125,7 +125,9 @@ main {
   justify-content: center;
   gap: 30px;
   width: 100%;
+  min-width: 300px;
   margin-bottom: 20px;
+  max-width: 1600px;
 }
 
 .container_about {
@@ -191,6 +193,8 @@ main {
   color: var(--text-gray);
   font-size: 12px;
   font-weight: 600;
+  outline-style: double;
+  padding: 5px 5px;
 }
 
 /*beneficios*/
@@ -200,7 +204,8 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
-  /*max-width: 1600px;*/
+  min-width: 300px;
+  max-width: 1600px;
 }
 
 .beneficios_container {
@@ -260,6 +265,7 @@ main {
   flex-direction: column;
   margin-top: 100px;
   width: 100%;
+  min-width: 300px;
   max-width: 1600px;
   gap: 50px;
 }
@@ -354,6 +360,8 @@ background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Fir
   transition: var(--background) .5s;
   font-size: 11px;
   font-weight: 600;
+  outline-style: double;
+  padding: 5px 5px;
 }
 
 
@@ -364,8 +372,9 @@ background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Fir
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 1600px;
+  /*max-width: 1600px;*/
   width: 100%;
+  min-width: 300px;
   gap: 30px;
   margin-top: 30px;
   margin-bottom: 50px;
@@ -396,7 +405,7 @@ background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Fir
   gap: 15px;
   width: 100%;
   max-width: 750px;
-  min-width: 350px;
+  min-width: 300px;
   box-shadow: 0px 0px 0px 4px rgba(248,202,134,0.46);
   -webkit-box-shadow: 0px 0px 0px 4px rgba(248,202,134,0.46);
   -moz-box-shadow: 0px 0px 0px 4px rgba(248,202,134,0.46);
@@ -414,7 +423,7 @@ background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Fir
   align-items: center;
   flex-wrap: wrap;
   width: 60%;
-  min-width: 350px;
+  min-width: 300px;
   gap: 20px;
 }
 
@@ -452,8 +461,8 @@ footer {
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 1600px;
-  min-width: 350px;
+  /*max-width: 1600px;*/
+  min-width: 300px;
   height: 75px;
   background-color: var(--background);
 }
