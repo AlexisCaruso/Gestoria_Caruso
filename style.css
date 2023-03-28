@@ -204,6 +204,7 @@ main {
   justify-content: center;
   align-items: center;
   width: 100%;
+  max-width: 1400px;
   min-width: 300px;
 }
 
